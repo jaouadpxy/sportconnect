@@ -1,17 +1,16 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "./sass/main.scss";
-// import "tachyons";
+import "tachyons";
 
 // Components
 
 import Header from "./Components/Header";
 import Navigation from "./Components/Navigation";
-import TrainingBar from "./Components/TraningBar";
+import Session from "./Components/TraningBar";
 import Sports from "./Components/Sports";
 import OtherSports from "./Components/OtherSports";
-import Affilates from "./Components/Affilates";
-
+import Affiliates from "./Components/Affilates";
 import Footer from "./Components/Footer";
 
 class App extends Component {
@@ -19,10 +18,11 @@ class App extends Component {
     <div className="container-wrapper">
       <Navigation />
       <Header />
-      <TrainingBar />
+      <Session />
       <Sports />
       <OtherSports />
-      <Affilates />
+      <Affiliates />
+      <Footer />
     </div>
   );
 }
